@@ -1,0 +1,26 @@
+.box1{
+    height:40px;
+    width:50%;
+    border:solid;
+    margin-bottom: 50px;
+    
+}
+
+.box2{
+    height:40px;
+    width:50%;
+
+    border:solid;
+    
+    margin-bottom: 50px;
+
+}
+
+
+button {
+
+
+    width:100px;
+    height:20px
+}
+
