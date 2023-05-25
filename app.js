@@ -10,13 +10,13 @@ const box2=document.querySelector('.box2')
 const Reducer1=(initialState1="50%",action)=>{ //should return value whatever the if test
     if (action.type==="inc1") 
       return "100%"
-    return "50%"
+    return initialState1
         
 }
 const Reducer2=(initialState2="50%",action)=>{  //should return value whatever the if test
     if (action.type==="inc2")
       return  "100%"
-    return "50%"
+    return initialState2
 
 }
 //combine reducers
